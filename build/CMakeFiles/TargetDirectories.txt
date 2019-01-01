@@ -1,0 +1,3 @@
+/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/Coordinates_PCD/build/CMakeFiles/edit_cache.dir
+/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/Coordinates_PCD/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/Coordinates_PCD/build/CMakeFiles/test.dir
