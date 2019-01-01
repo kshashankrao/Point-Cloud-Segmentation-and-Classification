@@ -7,8 +7,8 @@ import numpy as np
 from random import shuffle
 from sklearn.model_selection import train_test_split
 
-basepath = "D:/DeepLearning/PCL_Segmentation/point_net/pointnet/dell"
-#basepath = "D:/DeepLearning/PCL_Segmentation/point_net/pointnet/mesh_sampling/build/data/"
+#basepath = "D:/DeepLearning/PCL_Segmentation/point_net/pointnet/dell"
+basepath = "D:/DeepLearning/PCL_Segmentation/point_net/pointnet/mesh_sampling/build/data/"
 
 def rename(path):
     num = 0
@@ -67,7 +67,8 @@ def convert2h5():
         print(labelss)
         #split = train_test_split(data, labelss,test_size=0.2, random_state=42)
         #trainX, trainY, labelX, labelY = split
-        print(np.array(data).shape)
+        data = np.asarray(data)
+        print(data.shape)
         hf_train = h5py.File('Data_test.h5','w')
         hf_train.create_dataset('data',data=data)
         hf_train.create_dataset('label',data=labelss)
