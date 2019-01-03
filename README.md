@@ -7,4 +7,5 @@ Step by step process:
 - [x] Downsampling point clouds using Meshsampling
 - [x] Convert PCD to h5 
 - [x] Input data normalization
+- [ ] Data Augmentation
 - [ ] Others to follow
