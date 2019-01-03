@@ -106,9 +106,7 @@ def augment_data(filename,rotation_angle):
 	for k in range(batch_data.shape[0]):
 		cosval = np.cos(rotation_angle)
 		sinval = np.sin(rotation_angle)
-		rotation_matrix = np.array([[cosval, 0, sinval],
-									[0, 1, 0],
-									[-sinval, 0, cosval]])
+		rotation_matrix = np.array([[cosval, 0, sinval],[0, 1, 0],[-sinval, 0, cosval]])
 		shape_pc = batch_data[k,:,0:3]
 		rotated_data[k,:,0:3] = np.dot(shape_pc.reshape((-1, 3)), rotation_matrix)
 	hf_train = h5py.File('train_rotated_90.h5','w')
