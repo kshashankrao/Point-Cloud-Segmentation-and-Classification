@@ -1,10 +1,3 @@
-/**
- * @file don_segmentation.cpp
- * Difference of Normals Example for PCL Segmentation Tutorials.
- *
- * @author Yani Ioannou
- * @date 2012-09-24
- */
 #include <string>
 
 #include <pcl/point_types.h>
