@@ -1,3 +1,3 @@
-data/modelnet40_ply_hdf5_2048/test.h5
-data/modelnet40_ply_hdf5_2048/test_rotated_90.h5
-data/modelnet40_ply_hdf5_2048/test_rotated_180.h5
+data/car_person/test.h5
+data/car_person/test_rotated_90.h5
+data/car_person/test_rotated_180.h5
