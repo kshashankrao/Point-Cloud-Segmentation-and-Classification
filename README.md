@@ -10,4 +10,5 @@ Step by step process:
 - [x] Convert PCD to h5 
 - [x] Input data normalization
 - [x] Data Augmentation (Rotation and scaling)
+- [ ] Train scripts
 - [ ] Others to follow
