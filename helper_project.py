@@ -8,7 +8,6 @@ from random import shuffle
 from sklearn.model_selection import train_test_split
 p =  pcl.PointCloud()
 basepath = "D:/DeepLearning/PCL_Segmentation/point_net/pointnet/test_data"
-#basepath = "D:/DeepLearning/PCL_Segmentation/point_net/pointnet/mesh_sampling/build/data/"
 
 def rename(path):
 	num = 0
@@ -79,11 +78,6 @@ def convert2h5():
 		hf_train.create_dataset('data',data=data)
 		hf_train.create_dataset('label',data=labelss)
 		hf_train.close()
-		#print(labelss.shape)
-		# hf_val = h5py.File('test_data.h5','w')
-		# hf_val.create_dataset('data',data=trainY)
-		# hf_val.create_dataset('label',data=labelY)
-		# hf_val.close()
 
 def loadh5(filename):
 	f = h5py.File(filename)
@@ -96,7 +90,6 @@ def h5toarray(filename):
 	hf = h5py.File(filename, 'r')
 	data = hf.get('data').value
 	print(data)
-	#p =  pcl.PointCloud()
 	pcd_new = p.from_array(data[1])
 	pcl.save(p,"test.pcd")
 
