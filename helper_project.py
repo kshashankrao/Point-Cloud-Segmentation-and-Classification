@@ -139,10 +139,4 @@ def scale_point_cloud(filename, scale_low=0.8, scale_high=1.25):
 	hf_train.create_dataset('label',data=label)
 	hf_train.close()
 
-#rename("D:/DeepLearning/PCL_Segmentation/point_net/pointnet/mesh_sampling/build/data/car")
-#convert2h5()
-#loadh5("train_scaled.h5")
-#5toarray("Data_test.h5")
 extractDatafromH5("train_scaled.h5")
-#augment_data("train.h5",90)
-#scale_point_cloud("train.h5")
