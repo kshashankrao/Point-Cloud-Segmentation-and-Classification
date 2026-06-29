@@ -1,3 +1,0 @@
-/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/mesh_sampling/build/CMakeFiles/edit_cache.dir
-/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/mesh_sampling/build/CMakeFiles/rebuild_cache.dir
-/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/mesh_sampling/build/CMakeFiles/mesh.dir

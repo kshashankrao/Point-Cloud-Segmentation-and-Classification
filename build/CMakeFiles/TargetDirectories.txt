@@ -1,3 +1,4 @@
-/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/Coordinates_PCD/build/CMakeFiles/edit_cache.dir
-/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/Coordinates_PCD/build/CMakeFiles/rebuild_cache.dir
-/mnt/d/DeepLearning/PCL_Segmentation/point_net/pointnet/Coordinates_PCD/build/CMakeFiles/test.dir
+/mnt/d/DeepLearning/Point-Cloud-Segmentation-and-Classification/build/CMakeFiles/pipeline.dir
+/mnt/d/DeepLearning/Point-Cloud-Segmentation-and-Classification/build/CMakeFiles/voxel_grid.dir
+/mnt/d/DeepLearning/Point-Cloud-Segmentation-and-Classification/build/CMakeFiles/edit_cache.dir
+/mnt/d/DeepLearning/Point-Cloud-Segmentation-and-Classification/build/CMakeFiles/rebuild_cache.dir
